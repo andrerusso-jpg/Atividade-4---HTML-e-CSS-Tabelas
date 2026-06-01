@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de Rotina Semanal</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: white;
+        }
+
+        th, td {
+            border: 2px solid #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #1e90ff;
+            color: white;
+        }
+
+        .intervalo {
+            background-color: #1e90ff;
+            font-weight: bold;
+        }
+
+        .aula {
+            background-color: #d9ead3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Rotina Semanal de Estudos</h1>
+
+    <table>
+        <tr>
+            <th>Horário</th>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+        </tr>
+
+        <tr>
+            <td>08:00 - 09:00</td>
+            <td class="aula">Matemática</td>
+            <td class="aula">Português</td>
+            <td class="aula">História</td>
+            <td class="aula">Geografia</td>
+            <td class="aula">Biologia</td>
+        </tr>
+
+        <tr>
+            <td>09:00 - 10:00</td>
+            <td class="aula">Matemática</td>
+            <td class="aula">Português</td>
+            <td class="aula">História</td>
+            <td class="aula">Geografia</td>
+            <td class="aula">Biologia</td>
+        </tr>
+
+        <tr>
+            <td>10:00 - 10:30</td>
+            <td colspan="5" class="intervalo">INTERVALO</td>
+        </tr>
+
+        <tr>
+            <td>10:30 - 11:30</td>
+            <td class="aula">Física</td>
+            <td class="aula">Química</td>
+            <td class="aula">Inglês</td>
+            <td class="aula">Artes</td>
+            <td class="aula">Educação Física</td>
+        </tr>
+
+        <tr>
+            <td>11:30 - 12:30</td>
+            <td class="aula">Física</td>
+            <td class="aula">Química</td>
+            <td class="aula">Inglês</td>
+            <td class="aula">Artes</td>
+            <td class="aula">Educação Física</td>
+        </tr>
+
+        <tr>
+            <td>13:00 - 14:00</td>
+            <td rowspan="2" class="aula">Projeto de Programação</td>
+            <td class="aula">Banco de Dados</td>
+            <td class="aula">Redes</td>
+            <td class="aula">HTML/CSS</td>
+            <td class="aula">Revisão</td>
+        </tr>
+
+        <tr>
+            <td>14:00 - 15:00</td>
+            <td class="aula">Banco de Dados</td>
+            <td class="aula">Redes</td>
+            <td class="aula">HTML/CSS</td>
+            <td class="aula">Revisão</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
